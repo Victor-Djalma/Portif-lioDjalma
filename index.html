@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Victor Djalma - Cybersecurity Analyst</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@400;700&family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="logo">
+                <i class="fas fa-shield-alt"></i>
+                <span>Victor Djalma</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#sobre" data-section="sobre">Sobre</a></li>
+                <li><a href="#tech-stack" data-section="tech-stack">Tech Stack</a></li>
+                <li><a href="#projetos" data-section="projetos">Projetos</a></li>
+                <li><a href="#certificacoes" data-section="certificacoes">Certificações</a></li>
+                <li><a href="#contato" data-section="contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="wave-container">
+            <svg class="wave" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,149.3C960,160,1056,160,1152,138.7C1248,117,1344,75,1392,53.3L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z" fill="#FF0000"></path>
+            </svg>
+        </div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-name">Victor Djalma <span class="hat">🎩</span></h1>
+                <div class="typing-container">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <div class="matrix-bg"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="section sobre-section">
+        <div class="container">
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <h2 class="section-title">Sobre mim</h2>
+                    <div class="bio-text">
+                        <p>Oi! Me chamo <span class="highlight">Victor Djalma</span>, tenho 19 anos e sou um entusiasta de <span class="highlight">cibersegurança</span>, redes e cloud computing.</p>
+                        
+                        <p>Curioso por natureza, gosto de entender como as coisas funcionam por trás da tela — seja protegendo sistemas ou explorando arquiteturas em nuvem.</p>
+                        
+                        <p>Também programo em <span class="highlight">Python</span>, sempre buscando soluções que facilitem o dia a dia.</p>
+                        
+                        <p>Gosto de aprender, trocar ideias e me conectar com pessoas que também vivem tecnologia com paixão.</p>
+                    </div>
+                    <div class="quote">
+                        <i class="fas fa-quote-left"></i>
+                        <p>"Aquele que foge do medo nunca será verdadeiramente livre."</p>
+                    </div>
+                </div>
+                <div class="sobre-image">
+                    <div class="hacker-gif">
+                        <div class="terminal">
+                            <div class="terminal-header">
+                                <div class="terminal-buttons">
+                                    <span class="btn red"></span>
+                                    <span class="btn yellow"></span>
+                                    <span class="btn green"></span>
+                                </div>
+                                <span class="terminal-title">root@security:~</span>
+                            </div>
+                            <div class="terminal-body">
+                                <div class="terminal-line">
+                                    <span class="prompt">$</span>
+                                    <span class="command">nmap -sS target.com</span>
+                                </div>
+                                <div class="terminal-line">
+                                    <span class="output">Scanning... 🔍</span>
+                                </div>
+                                <div class="terminal-line">
+                                    <span class="output">Port 22/tcp open ssh</span>
+                                </div>
+                                <div class="terminal-line">
+                                    <span class="output">Port 80/tcp open http</span>
+                                </div>
+                                <div class="terminal-line">
+                                    <span class="prompt">$</span>
+                                    <span class="command typing-command"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tech Stack Section -->
+    <section id="tech-stack" class="section tech-section">
+        <div class="container">
+            <h2 class="section-title">Tech Stack</h2>
+            <div class="tech-grid">
+                <div class="tech-category">
+                    <h3>Cloud Platforms</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fab fa-aws"></i>
+                            <span>AWS</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-microsoft"></i>
+                            <span>Azure</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-google"></i>
+                            <span>GCP</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-cloud"></i>
+                            <span>Oracle Cloud</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tech-category">
+                    <h3>Security Tools</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fas fa-user-secret"></i>
+                            <span>Kali Linux</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Nmap</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-bug"></i>
+                            <span>Metasploit</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-search"></i>
+                            <span>Wireshark</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Programming & OS</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fab fa-python"></i>
+                            <span>Python</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-linux"></i>
+                            <span>Linux</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-terminal"></i>
+                            <span>Bash</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-windows"></i>
+                            <span>PowerShell</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tech-category">
+                    <h3>Monitoring & DevOps</h3>
+                    <div class="tech-items">
+                        <div class="tech-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Grafana</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-server"></i>
+                            <span>Nginx</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fas fa-database"></i>
+                            <span>DynamoDB</span>
+                        </div>
+                        <div class="tech-item">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos Section -->
+    <section id="projetos" class="section projects-section">
+        <div class="container">
+            <h2 class="section-title">Projetos de Segurança</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-shield-virus"></i>
+                        <h3>Security Scanner</h3>
+                    </div>
+                    <p>Ferramenta automatizada de varredura de vulnerabilidades em aplicações web, desenvolvida em Python com integração a APIs de threat intelligence.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Nmap</span>
+                        <span>SQLmap</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Código
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-network-wired"></i>
+                        <h3>Network Monitor</h3>
+                    </div>
+                    <p>Sistema de monitoramento de rede em tempo real com detecção de anomalias e alertas automáticos para atividades suspeitas.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>Wireshark</span>
+                        <span>Grafana</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Código
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            Demo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-cloud-upload-alt"></i>
+                        <h3>Cloud Security Audit</h3>
+                    </div>
+                    <p>Framework para auditoria de segurança em ambientes cloud (AWS, Azure, GCP) com relatórios automatizados de compliance.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>AWS CLI</span>
+                        <span>Terraform</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link">
+                            <i class="fab fa-github"></i>
+                            Código
+                        </a>
+                        <a href="#" class="project-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            Demo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificações Section -->
+    <section id="certificacoes" class="section certifications-section">
+        <div class="container">
+            <h2 class="section-title">Certificações</h2>
+            <div class="certifications-grid">
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>AWS Certified Security - Specialty</h3>
+                        <p class="cert-issuer">Amazon Web Services • 2024</p>
+                        <p class="cert-description">
+                            Certificação especializada em segurança AWS, cobrindo identity management, data protection e incident response.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>CompTIA Security+</h3>
+                        <p class="cert-issuer">CompTIA • 2023</p>
+                        <p class="cert-description">
+                            Certificação fundamental em cibersegurança cobrindo network security, compliance e operational security.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-bug"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Certified Ethical Hacker (CEH)</h3>
+                        <p class="cert-issuer">EC-Council • 2023</p>
+                        <p class="cert-description">
+                            Certificação em ethical hacking e penetration testing para identificação de vulnerabilidades.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">
+                        <i class="fab fa-microsoft"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Azure Security Engineer</h3>
+                        <p class="cert-issuer">Microsoft • 2023</p>
+                        <p class="cert-description">
+                            Especialização em segurança do Microsoft Azure, identity protection e threat protection.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Conecte-se Comigo</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h4>Email</h4>
+                            <p>victor.djalma@security.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h4>Localização</h4>
+                            <p>Brasil</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/victordjalma/" class="social-link linkedin">
+                        <i class="fab fa-linkedin"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="#" class="social-link github">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub</span>
+                    </a>
+                    <a href="#" class="social-link twitter">
+                        <i class="fab fa-twitter"></i>
+                        <span>Twitter</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Victor Djalma. Cybersecurity Analyst.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Typing animation
+        const typingText = document.querySelector('.typing-text');
+        const texts = [
+            'Cybersecurity Analyst',
+            'Cloud Security Specialist', 
+            'Penetration Tester',
+            'Python Developer',
+            'Network Security Expert'
+        ];
+        let textIndex = 0;
+        let charIndex = 0;
+        let isDeleting = false;
+
+        function typeWriter() {
+            const currentText = texts[textIndex];
+            
+            if (isDeleting) {
+                typingText.textContent = currentText.substring(0, charIndex - 1);
+                charIndex--;
+            } else {
+                typingText.textContent = currentText.substring(0, charIndex + 1);
+                charIndex++;
+            }
+
+            if (!isDeleting && charIndex === currentText.length) {
+                setTimeout(() => isDeleting = true, 2000);
+            } else if (isDeleting && charIndex === 0) {
+                isDeleting = false;
+                textIndex = (textIndex + 1) % texts.length;
+            }
+
+            const speed = isDeleting ? 50 : 100;
+            setTimeout(typeWriter, speed);
+        }
+
+        // Terminal typing animation
+        const terminalCommands = [
+            'python security_scan.py',
+            'nmap -sS -O target.com',
+            'metasploit -x exploit',
+            'wireshark -i eth0'
+        ];
+        let terminalIndex = 0;
+
+        function typeTerminalCommand() {
+            const commandElement = document.querySelector('.typing-command');
+            const currentCommand = terminalCommands[terminalIndex];
+            let charIndex = 0;
+
+            function typeChar() {
+                if (charIndex < currentCommand.length) {
+                    commandElement.textContent = currentCommand.substring(0, charIndex + 1);
+                    charIndex++;
+                    setTimeout(typeChar, 100);
+                } else {
+                    setTimeout(() => {
+                        commandElement.textContent = '';
+                        terminalIndex = (terminalIndex + 1) % terminalCommands.length;
+                        setTimeout(typeTerminalCommand, 1000);
+                    }, 3000);
+                }
+            }
+            typeChar();
+        }
+
+        // Matrix effect
+        function createMatrixEffect() {
+            const matrixBg = document.querySelector('.matrix-bg');
+            const chars = '01';
+            
+            for (let i = 0; i < 50; i++) {
+                const span = document.createElement('span');
+                span.textContent = chars[Math.floor(Math.random() * chars.length)];
+                span.style.left = Math.random() * 100 + '%';
+                span.style.animationDelay = Math.random() * 2 + 's';
+                span.style.animationDuration = (Math.random() * 3 + 2) + 's';
+                matrixBg.appendChild(span);
+            }
+        }
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                target.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+
+        // Intersection Observer for animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('animate-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.project-card, .cert-card, .tech-item').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Active navigation
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('.section');
+            const navLinks = document.querySelectorAll('.nav-links a');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('data-section') === current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Initialize animations
+        window.addEventListener('load', () => {
+            typeWriter();
+            typeTerminalCommand();
+            createMatrixEffect();
+        });
+    </script>
+</body>
+</html>
